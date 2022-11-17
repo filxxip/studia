@@ -1,6 +1,7 @@
 package Drzewo;
 
 import ElementyDrzewa.Igla;
+import ElementyDrzewa.Lisc;
 import ElementyDrzewa.OwocDrzewa;
 
 public abstract class DrzewoLisciaste extends Drzewo {
@@ -32,12 +33,12 @@ public abstract class DrzewoLisciaste extends Drzewo {
 
 
     protected OwocDrzewa wyhodujOwoc(double dlugosc) {
-        return new Igla(dlugosc);
+        return new Lisc(dlugosc);
 
     }
 
     protected OwocDrzewa[] stworzTabliceOwocow(double miejsce_w_tablicy) {
-        return new Igla[2000];
+        return new Lisc[2000];
     }
 
     public void stworzJedzenie(int temperatura) {
