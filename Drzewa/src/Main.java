@@ -7,5 +7,6 @@ public class Main {
         jablon.podlej();
         jablon.wyhodujLiscie(20);
         jablon.zwrocOgolnyStan();
+        jablon.zerwijOwoc();
     }
 }
