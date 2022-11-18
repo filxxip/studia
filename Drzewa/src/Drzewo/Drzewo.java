@@ -64,7 +64,6 @@ public abstract class Drzewo {
     protected void wyhodujOwoce(int ilosc, double wielkosc) {
         for (int i = 0; i < ilosc; i++) {
             OwocDrzewa owoc = wyhodujOwoc(wielkosc);
-            System.out.println(owoc.getClass().getName());
             dodajOwocDrzewaDoTablicy(owoc);
         }
     }
