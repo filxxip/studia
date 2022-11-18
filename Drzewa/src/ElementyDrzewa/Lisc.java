@@ -9,13 +9,4 @@ public class Lisc extends OwocDrzewa {
     public  void rosnij(){
         wielkosc*=1.2;
     }
-//    public double zwrocPole(){
-//        return pole;
-//    }
-//    public void zmienPole(double zmiana_wartosci){
-//        pole+=zmiana_wartosci;
-//        if (pole<0){
-//            pole = 0;
-//        }
-//    }
 }
